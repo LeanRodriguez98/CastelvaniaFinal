@@ -46,6 +46,14 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
+		urls.push ("assets/images/Arco.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/images/bossCastelvania.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
 		urls.push ("assets/images/ChicoNaranja.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
@@ -62,6 +70,10 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
+		urls.push ("assets/images/Corazon.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
 		urls.push ("assets/images/enemigo1.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
@@ -71,6 +83,14 @@ class ApplicationMain {
 		
 		
 		urls.push ("assets/images/enemigo3.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/images/Flcha.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/images/FlechaRetroseso.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
@@ -87,6 +107,14 @@ class ApplicationMain {
 		
 		
 		urls.push ("assets/images/GrandeVioleta.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/images/Hacha.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/images/HachaChica.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
@@ -114,7 +142,23 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
+		urls.push ("assets/images/Municion.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/images/Naranja.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
 		urls.push ("assets/images/Pinchos.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/images/Reloj.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/images/Rojo.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
@@ -122,8 +166,20 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
+		urls.push ("assets/images/Verde.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/images/Violeta.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
 		urls.push ("assets/music/music-goes-here.txt");
 		types.push (lime.Assets.AssetType.TEXT);
+		
+		
+		urls.push ("assets/music/VampireKiller.wav");
+		types.push (lime.Assets.AssetType.SOUND);
 		
 		
 		urls.push ("assets/sounds/sounds-go-here.txt");
@@ -215,7 +271,7 @@ class ApplicationMain {
 		
 		config = {
 			
-			build: "682",
+			build: "1513",
 			company: "...",
 			file: "Castelvania-theo",
 			fps: 60,

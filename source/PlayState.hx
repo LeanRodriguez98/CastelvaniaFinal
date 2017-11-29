@@ -450,7 +450,7 @@ class PlayState extends FlxState
 		barraVidaPersonaje = new FlxBar(100, 970, LEFT_TO_RIGHT, 100, 8, player, "vida",0, 100);
 		personajetxt = new FlxText(50, 970, 0, "Player: ", 5, false);
 		bosstxt = new FlxText(50, 970, 0, "Boss: ", 5, false);
-		municiontxt = new FlxText(50, 970, "Municion: " + player.getMunicion(), 5, false);
+	//	municiontxt = new FlxText(50, 970, "Municion: " + player.getMunicion(), 5, false);
 		add(GrupRatita);
 		add(GrupMurcielago);
 		add(GrupMeduza);
@@ -664,8 +664,8 @@ class PlayState extends FlxState
 		personajetxt.y = player.y + 130;
 		bosstxt.x = player.x - 120;
 		bosstxt.y = player.y + 120;
-		municiontxt.x = player.x + 10;
-		municiontxt.y = player.y + 130;
+		//municiontxt.x = player.x + 10;
+		//municiontxt.y = player.y + 130;
 		if (icon1bool)
 		{
 			icon1.x = player.x + 120;
